@@ -1,0 +1,6 @@
+{
+  "chat.tools.terminal.autoApprove": {
+    "awk": true,
+    "npx --yes markdown-link-check": true
+  }
+}
