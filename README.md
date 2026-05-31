@@ -203,7 +203,7 @@ Scrollytelling here means long-form web stories where text, images, audio, video
 - [Library of Congress Digital Collections](https://www.loc.gov/collections/): Deep US collections: maps, photographs, manuscripts, recordings. Many items are public domain or no-known-restrictions, but not all.
 - [British Library Flickr Commons](https://www.flickr.com/photos/britishlibrary/): Public-domain image sets from digitized books. Odd, rich, and good for visual prompts.
 - [Gallica](https://gallica.bnf.fr/): BnF books, images, maps, periodicals. Item-level rights.
-- [KB Digital Collections](https://www.kb.nl/en/digital-resources): Dutch national library collections; check rights per object.
+- [KB Digital Heritage](https://www.kb.nl/en/over-ons/expertises/digitaal-erfgoed): Delpher, DBNL, image collections, web archiving. Dutch digital heritage, with rights and access varying by service.
 - [Rijksmuseum Collection](https://www.rijksmuseum.nl/en/rijksstudio): High-resolution museum images and metadata. Many public-domain images, but verify the record.
 - [Wellcome Collection](https://wellcomecollection.org/works): Health, medicine, science, culture. Strong open-access posture; mixed item rights.
 - [Smithsonian Open Access](https://www.si.edu/openaccess): Millions of CC0 images and datasets from the Smithsonian.
@@ -274,6 +274,8 @@ Some projects are hybrids. When in doubt, the question is simple: is the main ex
 - [Out of Eden Walk](https://www.outofedenwalk.com/): Slow journalism, walking, maps, photographs, essays. A very authored route through place.
 - [Histories of the National Mall](https://mallhistory.org/): Mobile public history with archival materials and thematic tours. Good for talking about situated interpretation.
 - [Necessary Reunions](https://necessaryreunions.org/): VOC archives and historical maps of early modern Kerala; map-text storytelling with georeferencing, IIIF, and gazetteer work in the mix.
+- [Digital Buffalo Interactive Histories](https://digitalbuffalo.uark.edu/interactive-histories/): Six StoryMap-based histories of the Buffalo National River. Pick one and follow it as a short multimedia place narrative.
+- [Library of Congress Story Maps](https://www.loc.gov/research-centers/main/researcher-resources/story-maps/): Collection-based map narratives from the Library of Congress; more of a shelf of guided stories than a single project.
 
 **Exploratory / reference interfaces**
 
@@ -336,6 +338,8 @@ Some projects are hybrids. When in doubt, the question is simple: is the main ex
 - [Digital Benin](https://digitalbenin.org/): Objects, oral histories, provenance, maps, archives, Edo-language research. Reparative and research-led; more browseable than linear.
 - [Nunalleq Digital Museum & Catalogue](https://www.nunalleq.org/): Community co-curated Yup'ik archaeological heritage through objects, voices, reconstructions, and 3D scans.
 - [Below the Surface](https://belowthesurface.amsterdam/nl): Amsterdam Noord/Zuidlijn finds presented through objects, vitrines, and urban archaeology.
+- [When Women Lost the Vote](https://www.amrevmuseum.org/exhibits/when-women-lost-the-vote-a-revolutionary-story): Online exhibit about women and free people of color voting in Revolutionary-era New Jersey
+- [The Searchable Museum](https://www.searchablemuseum.com/about/): NMAAHC digital exhibits and stories. Browseable, but the exhibit sections are built as guided online museum narratives
 
 ### 3D & Immersive Examples
 
