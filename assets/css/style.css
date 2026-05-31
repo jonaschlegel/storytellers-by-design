@@ -338,6 +338,70 @@ mark {
   font-weight: 700;
 }
 
+.activity-hero {
+  padding: 4.25rem 0 2rem;
+  border-top: 1px solid var(--line);
+  border-bottom: 2px solid var(--line);
+}
+
+.activity-hero h1 {
+  max-width: 18ch;
+}
+
+.example-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.example-card {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+  border: 1px solid var(--line);
+  background: rgba(247, 242, 232, 0.58);
+}
+
+.example-thumb {
+  display: grid;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  place-items: center;
+  border-bottom: 1px solid var(--line);
+  background: linear-gradient(135deg, rgba(217, 193, 93, 0.45), rgba(178, 69, 53, 0.12));
+  color: var(--accent);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.35rem;
+  font-style: italic;
+}
+
+.example-card div {
+  padding: 0.9rem;
+}
+
+.example-card h2 {
+  margin: 0.35rem 0 0.7rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.35rem;
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+.group-label {
+  margin-bottom: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.2rem;
+}
+
+.tags {
+  color: var(--accent);
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
 .resource-list {
   columns: 2 26rem;
   column-gap: 2rem;
@@ -419,6 +483,10 @@ blockquote {
   }
 
   .resource-results {
+    grid-template-columns: 1fr;
+  }
+
+  .example-grid {
     grid-template-columns: 1fr;
   }
 }

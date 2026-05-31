@@ -59,4 +59,8 @@ The workshop material area is ready for PDFs: the slide deck, booklet, case stud
     <h3><a href="{{ '/materials/activity-sheets/' | relative_url }}">Activity Sheets</a></h3>
     <p>Printable or fillable sheets for workshop activities.</p>
   </article>
+  <article class="card">
+    <h3><a href="{{ '/activities/design-detectives/' | relative_url }}">Critical Design Detectives</a></h3>
+    <p>Five example projects for the first group critique activity.</p>
+  </article>
 </div>

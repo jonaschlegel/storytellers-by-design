@@ -27,4 +27,8 @@ Add final workshop PDFs to the matching folders and then update the relevant pag
     <h3><a href="{{ '/materials/activity-sheets/' | relative_url }}">Activity Sheets</a></h3>
     <p>Use this folder for printable or fillable activity sheets.</p>
   </article>
+  <article class="card">
+    <h3><a href="{{ '/activities/design-detectives/' | relative_url }}">Critical Design Detectives</a></h3>
+    <p>Open the five group examples for the first critique activity.</p>
+  </article>
 </div>
