@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="{{ '/' | relative_url }}">Storytellers by Design</a>
+      <nav aria-label="Primary navigation">
+        <a href="{{ '/' | relative_url }}">Workshop</a>
+        <a href="{{ '/resources/' | relative_url }}">Resources</a>
+        <a href="{{ '/materials/' | relative_url }}">Materials</a>
+        <a href="{{ '/contributing/' | relative_url }}">Contribute</a>
+      </nav>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <p>Created by Kelly, Federica, and Jona for the DH Benelux 2026 workshop in Maastricht.</p>
+      <p>Resource list licensed under <a href="{{ '/LICENSE' | relative_url }}">CC BY 4.0</a>. Linked resources retain their own licenses and terms.</p>
+    </footer>
+  </body>
+</html>

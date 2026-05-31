@@ -1,0 +1,10 @@
+title: Storytellers by Design
+description: Digital storytelling resources and workshop materials for humanities teaching and research.
+url: ""
+baseurl: "/storytellers-by-design"
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - AUDIT.md

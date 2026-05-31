@@ -57,7 +57,6 @@ Scrollytelling here means long-form web stories where text, images, audio, video
 - [Shorthand](https://shorthand.com/): Commercial visual storytelling platform used by newsrooms, universities, and cultural institutions; good for polished public-facing stories, reports, and institutional features
 - [Readymag](https://readymag.com/): Design-forward web publishing tool for editorial, typographic, and magazine-style pages; good for visual essays, portfolios, and single-topic stories where layout matters
 - [Tapestries](https://tapestries.media/): Experimental platform for arranging media and text into spatial, patchwork-style narratives; good for collections, film corpora, and fragment-based research materials. Still in active development, so treat as exploratory
-- [Journal of Digital History](https://journalofdigitalhistory.org/): Open-access publication environment for narrative, hermeneutic, and data/code layers; good for research articles that connect argument, evidence, and computation
 - [PubPub](https://www.pubpub.org/): Community publishing platform for collaborative, media-rich scholarly projects; good for edited collections, open peer review, lab publications, and teaching publications
 - [Manifold](https://manifoldapp.org/): Open-source platform for annotated, media-enhanced digital books; good for course editions, public scholarship, and long-form projects with reader annotation
 - [Quarto](https://quarto.org/): Open-source scientific and technical publishing system for books, articles, websites, and dashboards; good for reproducible multimodal writing that combines prose, code, and data
@@ -300,9 +299,11 @@ Some projects are hybrids. When in doubt, the question is simple: is the main ex
 
 ### Audio Stories
 
-- [Serial](https://serialpodcast.org/): Investigative podcast organized as a serialized nonfiction narrative; demonstrates voice, suspense, episode structure, and ethical debate around true-crime storytelling
+- [In the Dark](https://features.apmreports.org/in-the-dark/): Investigative podcast with season-long reporting arcs and companion materials; demonstrates serialized narrative, evidentiary pacing, and deep reporting
 - [The Memory Palace](https://thememorypalace.us/): Short-form historical audio essays built around memory, archival fragments, and voice; demonstrates compact humanities storytelling through sound
 - [This American Life](https://www.thisamericanlife.org/): Weekly radio and podcast program built around themed narrative acts; demonstrates audio structure and pacing
+- [99% Invisible](https://99percentinvisible.org/): Audio storytelling series about design, cities, objects, and the built environment; demonstrates compact narrative essays that turn material culture into story
+- [Snap Judgment](https://snapjudgment.org/): Storytelling radio show and podcast built around voice-driven first-person narratives; demonstrates curation, performance, and episodic narrative framing
 - [Notes on Blindness](https://www.notesonblindness.co.uk/): Project based on John Hull's audio diaries, expanded through film, VR, and archive; demonstrates audio as source and experience
 - [The Kitchen Sisters](https://kitchensisters.org/): Archive of radio documentaries about hidden histories and everyday culture; demonstrates oral history and sound-rich storytelling
 - [Museum of London Audio Walks](https://www.museumoflondon.org.uk/discover/audio-walks): Place-based audio walks through London history; demonstrates locative sound and public history
@@ -365,7 +366,6 @@ Some projects are hybrids. When in doubt, the question is simple: is the main ex
 
 **Guided narratives and strong hybrids**
 
-- [Journal of Digital History](https://journalofdigitalhistory.org/): Open-access journal combining narrative, hermeneutic, and data/code layers; demonstrates scholarly multimodal publication
 - [bITEM](https://bitem.at/): Object-biography platform for museum items and specimens; the [Dodo case study](https://bitem.at/entities/234465) shows how linked data can be shaped into an authored object story
 - [Tapestries: Films from the Chinese Cultural Revolution](https://tapestries.media/u/futureofthebook/03f9e39a-d4e7-43a7-95c9-acba593fe1ec): Tapestry example arranging media and text around a film corpus; demonstrates patchwork multimodal curation
 - [Tapestries: A Digital Bookshelf](https://tapestries.media/u/futureofthebook/A%20Digital%20Bookshelf): Tapestry example presenting publications as a browseable media field; closer to curated spatial narrative than to linear storytelling
