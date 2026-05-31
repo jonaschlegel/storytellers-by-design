@@ -6,8 +6,8 @@ permalink: /materials/case-studies/
 
 # Case Studies
 
-Add case study PDFs to `materials/case-studies/`.
+Use these case studies for the group case-work section of the workshop.
 
-Suggested structure:
-
-- one PDF per case study, if the materials are self-contained
+- [Kabuki Case Study](kabuki-case-study.pdf)
+- [Nicosia Case Study](nicosia-case-study.pdf)
+- [Peperpot Case Study](peperpot-case-study.pdf)
