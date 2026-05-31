@@ -63,11 +63,3 @@ permalink: /activities/design-detectives/
     </div>
   </article>
 </div>
-
-## Detective Prompts
-
-- What story does the interface want you to follow?
-- What evidence becomes visible, and what becomes background?
-- Where does the design invite trust, curiosity, confusion, or friction?
-- Who seems imagined as the audience?
-- What would you change if this were your scholarly story?
