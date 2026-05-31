@@ -9,6 +9,7 @@ A curated list of platforms, open collections, and example projects for research
 - [A. Tools](#a-tools)
 - [B. Sources](#b-sources)
 - [C. Examples](#c-examples)
+- [D. Design Methods & Workshop Inspiration](#d-design-methods--workshop-inspiration)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -381,6 +382,36 @@ Some projects are hybrids. When in doubt, the question is simple: is the main ex
 - [Mapping Prejudice](https://mappingprejudice.umn.edu/): Racial covenants, community research, spatial evidence, data ethics.
 - [Six Degrees of Francis Bacon](http://sixdegreesoffrancisbacon.com/): Reconstructed early modern social networks; exploratory rather than story-led.
 - [Radio Aporee Maps](https://aporee.org/maps/): Global sound map of field recordings and places. Open-ended locative listening.
+
+## D. Design Methods & Workshop Inspiration
+
+This section is less a canon than a workbench. We are borrowing from design thinking, service design, critical making, cultural heritage work, UX, and whatever else helps participants slow down before choosing a platform. The basic move: ask better questions about audience, evidence, interface, power, and form.
+
+### General Design Thinking Toolkits
+
+- [Digital Society School Design Method Toolkit](https://toolkits.dss.cloud/design/): Main workshop shelf. Searchable methods such as actors maps, backcasting, brainwriting, empathy maps, paper prototyping, storyboards, wireframes, Wizard of Oz, and WWWWWH. Pick a card, adapt it, don't worship it.
+- [Stanford d.school: Getting Started with Design Thinking](https://dschool.stanford.edu/resources/getting-started-with-design-thinking): Fast entry point. Good when everyone needs a shared vocabulary in ten minutes.
+- [IDEO Design Thinking Resources](https://designthinking.ideo.com/resources): The polished mainstream version. Useful, but bring a little suspicion.
+- [IDEO.org Design Kit Methods](https://www.designkit.org/methods): Big method drawer. Interviews, immersion, prototyping, evaluation. Take one method; leave the ideology if needed.
+- [Design Thinking for Educators](https://page.ideo.com/design-thinking-edu-toolkit): Workbook mode. More classroom than gallery, which is sometimes exactly right.
+- [Google Design Sprint Kit](https://designsprintkit.withgoogle.com/): Time boxes, decisions, pressure. Helpful when the workshop needs momentum rather than endless discussion.
+- [Design Council Framework for Innovation](https://www.designcouncil.org.uk/resources/framework-for-innovation/): Double Diamond. Diverge, converge, repeat. Clean diagram, messy reality.
+
+### Workshop Methods
+
+- [NN/g: Journey Mapping 101](https://www.nngroup.com/articles/customer-journey-mapping/): Turn this into a reader journey, visitor journey, participant journey. Where do they get curious? Where do they get lost?
+- [NN/g: Empathy Mapping](https://www.nngroup.com/articles/empathy-mapping/): Useful assumption dump. Dangerous if treated as actual knowledge of people.
+- [NN/g: Using Scenarios](https://www.nngroup.com/articles/scenario-mapping-personas/): Tiny stories before the story: "A teacher arrives five minutes before class..." etc.
+- [NN/g: Storyboards Help Visualize UX Ideas](https://www.nngroup.com/articles/storyboards-visualize-ideas/): Sketch first, choose tools later.
+- [Miro: How Might We Template](https://miro.com/templates/how-might-we/): Overfamiliar, yes. Still a handy way to turn complaints into design questions.
+
+### Design, Digital Humanities & Cultural Heritage
+
+- [Design, Digital Humanities, and Information Visualization for Cultural Heritage](https://www.mdpi.com/2076-0752/12/6/254): Slower reading. Design, visualization, heritage; not a workshop card, more a background text.
+- [Critical Making](https://opendesignnow.org/index.html%3Fp%3D434.html): Making as thinking. Good antidote to prototype theatre.
+- [Speculative Design](https://speculativedesign.com/): What if the point is not to solve, but to unsettle?
+- [Mapping Access](https://www.criticaldesignlab.com/project/mapping-access): Access as method, not garnish. Disability-led, spatial, critical.
+- [Design Justice Network Principles](https://designjustice.org/read-the-principles): Keep nearby when "user-centered" starts sounding too innocent.
 
 ## Contributing
 

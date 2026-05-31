@@ -10,7 +10,8 @@
   const sectionNames = {
     "A. Tools": "Tools",
     "B. Sources": "Sources",
-    "C. Examples": "Examples"
+    "C. Examples": "Examples",
+    "D. Design Methods & Workshop Inspiration": "Methods"
   };
 
   const ignoredHeadings = new Set(["Contents", "Contributing", "License", "License Key"]);

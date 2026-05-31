@@ -21,6 +21,7 @@ script: /assets/js/resources.js
       <button class="filter-chip" type="button" data-filter="section" data-value="Tools">Tools</button>
       <button class="filter-chip" type="button" data-filter="section" data-value="Sources">Sources</button>
       <button class="filter-chip" type="button" data-filter="section" data-value="Examples">Examples</button>
+      <button class="filter-chip" type="button" data-filter="section" data-value="Methods">Methods</button>
     </div>
 
     <div class="filter-group" aria-label="Resource category filters" id="category-filters"></div>
