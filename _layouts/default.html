@@ -26,5 +26,8 @@
       <p>Created by Kelly, Federica, and Jona for the DH Benelux 2026 workshop in Maastricht.</p>
       <p>Resource list licensed under <a href="{{ '/LICENSE' | relative_url }}">CC BY 4.0</a>. Linked resources retain their own licenses and terms.</p>
     </footer>
+    {% if page.script %}
+      <script src="{{ page.script | relative_url }}"></script>
+    {% endif %}
   </body>
 </html>

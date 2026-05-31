@@ -211,6 +211,133 @@ mark {
   margin-top: 0;
 }
 
+.resource-browser {
+  padding: 4.25rem 0 2rem;
+  border-top: 1px solid var(--line);
+  border-bottom: 2px solid var(--line);
+}
+
+.resource-browser h1 {
+  max-width: 12ch;
+}
+
+.browser-controls {
+  margin-top: 2rem;
+}
+
+.browser-controls label {
+  display: block;
+  margin-bottom: 0.45rem;
+  color: var(--muted);
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  font-size: 0.9rem;
+}
+
+.browser-controls input {
+  width: 100%;
+  min-height: 3.4rem;
+  padding: 0.75rem 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+}
+
+.browser-controls input:focus {
+  outline: 3px solid rgba(217, 193, 93, 0.45);
+  border-color: var(--accent);
+}
+
+.filter-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.9rem;
+}
+
+.filter-chip {
+  min-height: 2.25rem;
+  padding: 0.35rem 0.65rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.92rem;
+}
+
+.filter-chip:hover,
+.filter-chip.active {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #fff;
+}
+
+.result-count {
+  margin-top: 1.2rem;
+  color: var(--muted);
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  font-size: 0.9rem;
+}
+
+.resource-results {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.resource-card {
+  min-height: 100%;
+  padding: 1rem;
+  background: rgba(247, 242, 232, 0.58);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.resource-card h2 {
+  margin: 0.55rem 0 0.5rem;
+  font-size: 1.35rem;
+}
+
+.resource-card p {
+  color: var(--muted);
+}
+
+.resource-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.resource-tags span {
+  padding: 0.15rem 0.42rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  font-size: 0.75rem;
+}
+
+.empty-state {
+  grid-column: 1 / -1;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.full-list {
+  margin-top: 2rem;
+}
+
+.full-list summary {
+  cursor: pointer;
+  color: var(--accent);
+  font-weight: 700;
+}
+
 .resource-list {
   columns: 2 26rem;
   column-gap: 2rem;
@@ -288,6 +415,10 @@ blockquote {
   }
 
   .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .resource-results {
     grid-template-columns: 1fr;
   }
 }
