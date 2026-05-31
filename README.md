@@ -14,52 +14,52 @@ A curated list of platforms, open collections, and example projects for research
 
 ## A. Tools
 
-Labels are deliberately pragmatic rather than strict technical categories. A tool can be useful for storytelling even when its main role is preparing sources, designing interactions, publishing a prototype, or supporting critique.
+Labels are deliberately pragmatic rather than strict technical categories. Some entries are places to publish a finished story; others are workshop tools, source-preparation utilities, or examples worth arguing with.
 
 Where the distinction matters, clusters are split into **Platforms** (where the story is authored, hosted, or consumed) and **Production tools** (which shape what stories are possible in a medium, but where the story itself lives elsewhere). Smaller clusters without a real production tail are not subdivided.
 
-Free tiers and hosting limits change often, so treat pricing notes as a starting point and verify before teaching or publishing.
+Free tiers and hosting limits change often. Treat any pricing or access note here as a prompt to check again before teaching with it.
 
 ### Maps
 
 **Platforms**
 
-- [StoryMapJS](https://storymap.knightlab.com/): Free Knight Lab tool for slide-based spatial narratives; good for simple place-by-place stories with maps, images, captions, and a clear sequence
-- [ArcGIS StoryMaps](https://storymaps.arcgis.com/): Polished Esri platform for combining maps, media, and scrolling narrative; good for public-facing institutional projects when a hosted commercial ecosystem is acceptable
-- [Google My Maps](https://www.google.com/maps/d/): Simple custom Google Maps editor with layers, markers, and media; good for quick teaching maps, route sketches, and collaborative place lists
-- [uMap](https://umap.openstreetmap.fr/): OpenStreetMap-based tool for publishing custom maps with markers and layers; good for free, lightweight maps that do not need Google infrastructure
-- [Mapbox](https://www.mapbox.com/): Hosted map design and publishing platform for custom basemaps, tiles, and location-aware interfaces; good for polished web maps with strong visual styling
-- [CARTO](https://carto.com/): Cloud geospatial platform for interactive maps, spatial analysis, and dashboards; good for larger spatial datasets and map-based analytical interfaces
-- [Palladio](https://hdlab.stanford.edu/palladio/): Stanford Humanities + Design tool for mapping and filtering networked historical data; good for classroom exploration of people, places, objects, and relationships
-- [Recogito](https://recogito.pelagios.org/): Annotation platform for connecting texts, images, and maps through places; good for place-based markup and historical-geography teaching projects
+- [StoryMapJS](https://storymap.knightlab.com/): No-code. A reliable first stop for place-by-place stories: map, image, caption, next slide.
+- [ArcGIS StoryMaps](https://storymaps.arcgis.com/): Very polished, very institutional. Strong when the story needs to look finished quickly, less ideal when platform independence matters.
+- [Google My Maps](https://www.google.com/maps/d/): Quick-and-dirty collaborative mapping. Useful for route sketches, field notes, and group lists of places.
+- [uMap](https://umap.openstreetmap.fr/): Lightweight OpenStreetMap publishing without the Google ecosystem.
+- [Mapbox](https://www.mapbox.com/): Beautiful maps, more design control, more technical decisions.
+- [CARTO](https://carto.com/): Spatial analysis plus dashboards. Probably overkill for a tiny story, useful once the dataset starts to drive the argument.
+- [Palladio](https://hdlab.stanford.edu/palladio/): A DH classroom classic for people, places, objects, and relationships. Exploratory rather than glossy.
+- [Recogito](https://recogito.pelagios.org/): Place annotation for texts and images. Especially handy when the map grows out of close reading.
 
 **Production tools**
 
-- [Leaflet](https://leafletjs.com/): Open-source JavaScript library for custom interactive web maps; good when you need control over data, interface, styling, and hosting
-- [QGIS](https://qgis.org/): Open-source desktop GIS for preparing, analyzing, and styling spatial data; good for source preparation before publishing maps elsewhere
-- [Kepler.gl](https://kepler.gl/): Browser tool for exploring large geospatial datasets; good for dense point data, movement data, and quick spatial pattern discovery
+- [Leaflet](https://leafletjs.com/): JavaScript map library. Use this when the story needs its own interface rather than another platform's template.
+- [QGIS](https://qgis.org/): Desktop GIS; not a storytelling tool by itself, but often where the hard map work happens.
+- [Kepler.gl](https://kepler.gl/): Dense points, flows, and movement data. More exploratory lab bench than finished essay.
 
 ### Timelines
 
-- [TimelineJS](https://timeline.knightlab.com/): Free Knight Lab timeline builder powered by a Google Sheet; good for quick classroom chronologies, public-history timelines, and embeddable event sequences
-- [Sutori](https://www.sutori.com/): Hosted timeline and lesson builder with media, questions, and collaboration; good for teaching sequences, workshop materials, and student projects that should feel like guided presentations
-- [Tiki-Toki](https://www.tiki-toki.com/): Visual timeline maker with multimedia entries, categories, and 3D views. The free account allows one timeline, no own-site embeds, no Group Edit, no hosted image uploads, and 200 events
-- [Preceden](https://www.preceden.com/): Timeline maker for planning, layered chronologies, project histories, and research timelines. The free version is limited to 10 events per timeline, so it fits compact tests and small presentation sequences
-- [TimeMapper](https://timemapper.okfnlabs.org/): Free spreadsheet-driven tool that combines a timeline with a map; good for journeys, campaigns, fieldwork, and place-based events where the story needs both when and where
-- [ChronoFlo Timeline Maker](https://www.chronoflotimeline.com/): Browser timeline editor with templates, media, categories, graphs, and shareable public timelines. The free account allows one timeline with up to 50 events but no own-site embedding
+- [TimelineJS](https://timeline.knightlab.com/): Google Sheet in, embeddable timeline out. Still one of the easiest ways to make chronology readable.
+- [Sutori](https://www.sutori.com/): Timeline-ish lesson builder with questions and media. Feels more like a guided classroom sequence than a standalone DH publication.
+- [Tiki-Toki](https://www.tiki-toki.com/): Visual timelines, categories, 3D view. Free tier: one timeline, 200 events, and some important embedding/upload limits.
+- [Preceden](https://www.preceden.com/): Planning timelines and small layered chronologies. The 10-event free limit makes it a sketch tool, not a large project home.
+- [TimeMapper](https://timemapper.okfnlabs.org/): Spreadsheet to map plus timeline. Nice for journeys, campaigns, fieldwork, and anything that needs when and where together.
+- [ChronoFlo Timeline Maker](https://www.chronoflotimeline.com/): Browser timeline editor with public sharing. Free tier: one timeline, up to 50 events, no own-site embedding.
 
 ### Scrollytelling
 
 Scrollytelling here means long-form web stories where text, images, audio, video, data, or documents are arranged as a guided reading path.
 
-- [Scalar](https://scalar.me/): Scholarly publishing platform for media-rich books and essays with nonlinear paths; good for digital monographs, source-led essays, and projects with multiple reading routes
-- [Pageflow](https://pageflow.io/): Web documentary platform for full-screen scenes built from video, audio, images, and text; good for documentary chapters, oral-history features, and paced media narratives
-- [Shorthand](https://shorthand.com/): Commercial visual storytelling platform used by newsrooms, universities, and cultural institutions; good for polished public-facing stories, reports, and institutional features
-- [Readymag](https://readymag.com/): Design-forward web publishing tool for editorial, typographic, and magazine-style pages; good for visual essays, portfolios, and single-topic stories where layout matters
-- [Tapestries](https://tapestries.media/): Experimental platform for arranging media and text into spatial, patchwork-style narratives; good for collections, film corpora, and fragment-based research materials. Still in active development, so treat as exploratory
-- [PubPub](https://www.pubpub.org/): Community publishing platform for collaborative, media-rich scholarly projects; good for edited collections, open peer review, lab publications, and teaching publications
-- [Manifold](https://manifoldapp.org/): Open-source platform for annotated, media-enhanced digital books; good for course editions, public scholarship, and long-form projects with reader annotation
-- [Quarto](https://quarto.org/): Open-source scientific and technical publishing system for books, articles, websites, and dashboards; good for reproducible multimodal writing that combines prose, code, and data
+- [Scalar](https://scalar.me/): Scholarly, media-rich, nonlinear. A serious option for digital monographs and source-led essays with multiple routes through the material.
+- [Pageflow](https://pageflow.io/): Web documentary chapters: full-screen image, video, audio, text. Pacing matters here.
+- [Shorthand](https://shorthand.com/): Commercial, polished, familiar from institutional reports and newsroom features.
+- [Readymag](https://readymag.com/): Layout-first web publishing. Useful when typography and visual rhythm are part of the argument.
+- [Tapestries](https://tapestries.media/): Patchwork/spatial narratives for media collections. Interesting and still exploratory; check current status before depending on it.
+- [PubPub](https://www.pubpub.org/): Collaborative scholarly publishing, especially for communities, edited projects, and open-review experiments.
+- [Manifold](https://manifoldapp.org/): Annotated digital books and course editions. More bookish than flashy.
+- [Quarto](https://quarto.org/): Reproducible writing with code, data, books, websites, and dashboards in the same ecosystem.
 
 > Historical reference points: [Atavist](https://atavist.com/) and [Exposure](https://exposure.co/) shaped early multimedia long-form publishing on the web. Both should be verified for current platform status before recommending or teaching with them.
 
@@ -67,116 +67,116 @@ Scrollytelling here means long-form web stories where text, images, audio, video
 
 **Platforms**
 
-- [Flourish](https://flourish.studio/): Hosted data storytelling platform for animated charts, maps, quizzes, and scroll-based stories; good for polished classroom demos, public explainers, and fast chart prototypes
-- [Datawrapper](https://www.datawrapper.de/): Accessible chart, table, and map builder widely used in data journalism; good for clean explanatory graphics that need to be readable and easy to embed
-- [Observable](https://observablehq.com/): Notebook platform for interactive data essays, visualizations, and explanations; good for reproducible analysis, teaching code, and exploratory visual arguments
-- [Tableau Public](https://public.tableau.com/): Free public publishing platform for dashboards and exploratory visual stories; good for multi-view datasets, filters, and public-facing dashboards when public hosting is acceptable
-- [Evidence](https://evidence.dev/): Open-source Markdown-and-SQL framework for reproducible data reports; good for lightweight analytical sites where the narrative and queries should live together
-- [Plotly Chart Studio](https://chart-studio.plotly.com/): Online tool for creating and sharing interactive scientific charts; good for quick exploratory plots and shareable chart prototypes
-- [Voyant Tools](https://voyant-tools.org/): Web environment for visualizing patterns in text corpora; good for first-pass literary, historical, or classroom text analysis without coding
+- [Flourish](https://flourish.studio/): Animated charts, maps, quizzes, scroll stories. Fast, impressive, and worth discussing critically because the templates do a lot of rhetorical work.
+- [Datawrapper](https://www.datawrapper.de/): Clean charts, maps, and tables. Data-journalism style; readable before it is spectacular.
+- [Observable](https://observablehq.com/): Interactive notebooks and data essays. Powerful, but assumes some comfort with JavaScript.
+- [Tableau Public](https://public.tableau.com/): Public dashboards and multi-view datasets. Good when filtering/exploration is the point and public hosting is acceptable.
+- [Evidence](https://evidence.dev/): Markdown plus SQL for analytical sites. Narrative and query live close together.
+- [Plotly Chart Studio](https://chart-studio.plotly.com/): Shareable scientific charts without building the whole interface yourself.
+- [Voyant Tools](https://voyant-tools.org/): Text analysis without coding. Often a first pass, sometimes enough.
 
 **Production tools**
 
-- [RAWGraphs](https://www.rawgraphs.io/): Open-source web tool for turning tabular data into editable visualizations; good for trying unusual chart types before refining them in design software
-- [D3.js](https://d3js.org/): JavaScript library for bespoke data-driven visualizations; best when existing chart builders cannot express the interaction, layout, or visual argument you need
+- [RAWGraphs](https://www.rawgraphs.io/): Tabular data to editable visual forms. Especially useful for trying less standard chart types.
+- [D3.js](https://d3js.org/): Bespoke data visualization in JavaScript. Reach for it when templates flatten the argument.
 
 ### Annotation & IIIF
 
-- [Storiiies](https://storiiies.cogapp.com/): Hosted tool for turning deep-zoom images into guided narrative tours; good for close-looking at artworks, manuscripts, maps, and photographs
-- [StoryMapJS Gigapixel](https://storymap.knightlab.com/gigapixel/): Free StoryMapJS mode for image stories across gigapixel images, artworks, manuscripts, and historical maps; good when the object is the landscape of the story
-- [Exhibit](https://www.exhibit.so/): British Library Labs tool for making IIIF-driven image exhibitions and tours; good for lightweight object displays and guided image interpretation
-- [Mirador](https://projectmirador.org/): Open-source IIIF viewer for comparing, annotating, and presenting digitized cultural objects; good for scholarly image comparison and manuscript work
-- [Omeka S](https://omeka.org/s/): Open-source web publishing platform for digital collections, exhibits, and linked data; good for multi-collection projects and structured metadata
-- [Omeka Classic](https://omeka.org/classic/): Older, simpler Omeka platform for collection-driven digital exhibitions; good for small teaching exhibits and legacy projects
-- [CollectionBuilder](https://collectionbuilder.github.io/): Static-site toolkit for building digital collection exhibits from metadata and media files; good for lightweight, GitHub-friendly collections
-- [Wax](https://minicomp.github.io/wax/): Minimal-computing Jekyll toolkit for IIIF-friendly digital exhibitions; good for sustainable, low-dependency collection sites that can be archived as static files
-- [Mukurtu](https://mukurtu.org/): Community archive platform designed for culturally sensitive access, protocols, and knowledge sharing; good for projects where permissions and community governance are central
-- [FromThePage](https://fromthepage.com/): Hosted platform for transcription, indexing, and annotation of archival materials; good for manuscript transcription and collaborative source work
-- [Zooniverse Project Builder](https://www.zooniverse.org/lab): Hosted platform for public classification and transcription projects; good when a collection needs many contributors for structured tasks
-- [Hypothesis](https://web.hypothes.is/): Open-source web annotation layer for collaborative reading, marginalia, and class discussion; good for source-led seminars and public annotation projects
-- [Annotorious](https://annotorious.dev/): Open-source JavaScript image annotation library; good for custom scholarly interfaces where annotations need to live inside your own site
+- [Storiiies](https://storiiies.cogapp.com/): Guided tours through deep-zoom images. Close looking, basically.
+- [StoryMapJS Gigapixel](https://storymap.knightlab.com/gigapixel/): When the image itself is the landscape: maps, manuscripts, paintings, huge photographs.
+- [Exhibit](https://www.exhibit.so/): Lightweight IIIF exhibitions from British Library Labs. Object display without building a whole collections platform.
+- [Mirador](https://projectmirador.org/): IIIF viewer for comparing and annotating digitized objects. Scholarly workbench energy.
+- [Omeka S](https://omeka.org/s/): Collections, exhibits, linked data, multiple sites. The heavier-duty Omeka.
+- [Omeka Classic](https://omeka.org/classic/): Older and simpler; still useful for small teaching exhibits or inherited projects.
+- [CollectionBuilder](https://collectionbuilder.github.io/): Static collections from metadata and media files. GitHub-friendly, pleasantly practical.
+- [Wax](https://minicomp.github.io/wax/): Minimal-computing Jekyll toolkit for IIIF-friendly exhibits. Sustainable, archivable, a little more technical.
+- [Mukurtu](https://mukurtu.org/): Community archive platform where access, protocols, and governance are part of the design problem.
+- [FromThePage](https://fromthepage.com/): Transcription and indexing for archival materials; useful when participation is structured around documents.
+- [Zooniverse Project Builder](https://www.zooniverse.org/lab): Public classification/transcription projects. Many contributors, many small tasks.
+- [Hypothesis](https://web.hypothes.is/): Web annotation for shared reading, class discussion, and public marginalia.
+- [Annotorious](https://annotorious.dev/): Image annotation library for custom interfaces. Developer-oriented.
 
 ### Audio
 
 **Platforms**
 
-- [SoundCite](https://soundcite.knightlab.com/): Free Knight Lab tool for embedding short inline audio clips directly into prose; good for close listening, oral-history excerpts, and sound examples inside essays
-- [Echoes](https://echoes.xyz/): Platform for GPS-triggered audio walks and location-aware soundscapes; verify current access and pricing before teaching with it
-- [VoiceMap](https://voicemap.me/): App and publishing platform for GPS-triggered walking tours; good for place-based audio guides with a public mobile audience
-- [izi.TRAVEL](https://izi.travel/): Platform for publishing mobile audio guides, museum tours, and heritage walks; good for institutional or tourism-oriented audio interpretation
+- [SoundCite](https://soundcite.knightlab.com/): Tiny inline audio clips inside prose. Lovely for close listening and oral-history snippets.
+- [Echoes](https://echoes.xyz/): GPS-triggered audio walks and soundscapes. Verify current access/pricing before putting it in a lesson plan.
+- [VoiceMap](https://voicemap.me/): Published walking tours for a mobile audience. More public-facing than experimental.
+- [izi.TRAVEL](https://izi.travel/): Museum tours, heritage walks, audio guides; institution/tourism vocabulary, but useful to compare.
 
 **Production tools**
 
-- [Audacity](https://www.audacityteam.org/): Open-source audio editor for recording, cleaning, and mixing spoken stories; good for preparing interviews, narration, and simple podcast material
-- [Descript](https://www.descript.com/): Transcript-based audio and video editor; good for interview editing, captions, rough cuts, and workflows where text editing drives media editing
-- [Hindenburg](https://hindenburg.com/): Audio production software built for radio features, podcasts, and spoken-word storytelling; good for polished narrative audio work
-- [Zencastr](https://zencastr.com/): Browser-based platform for recording remote interviews and podcasts; good when contributors cannot be in the same room
-- [Reaper](https://www.reaper.fm/): Flexible digital audio workstation for editing and sound design; good for advanced audio production on a modest budget
-- [GarageBand](https://www.apple.com/mac/garageband/): Beginner-friendly Apple audio production app; good for classroom audio projects, narration, music beds, and simple mixes
+- [Audacity](https://www.audacityteam.org/): Open-source audio editing. Interviews, cleanup, narration, simple mixes.
+- [Descript](https://www.descript.com/): Edit audio/video through the transcript. Very accessible, also very platform/AI-dependent.
+- [Hindenburg](https://hindenburg.com/): Built for radio features, podcasts, spoken-word work. Polished audio, professional workflow.
+- [Zencastr](https://zencastr.com/): Remote interview/podcast recording in the browser.
+- [Reaper](https://www.reaper.fm/): Serious audio workstation at a modest price; flexible, not beginner-cuddly.
+- [GarageBand](https://www.apple.com/mac/garageband/): Apple-only, beginner-friendly, enough for many classroom audio stories.
 
 ### Hotspots & Learning
 
-- [H5P](https://h5p.org/): Framework for reusable interactive HTML5 learning content; good for hotspots, branching scenarios, quizzes, and activities inside learning platforms
-- [Genially](https://genially.com/): Hosted platform for interactive presentations, infographics, games, and clickable images; good for quick visual explainers and classroom interactives
-- [ThingLink](https://www.thinglink.com/): Tool for adding multimedia hotspots to images, videos, 360-degree scenes, and 3D models; good for annotated objects, spaces, and virtual tours
-- [JuxtaposeJS](https://juxtapose.knightlab.com/): Free Knight Lab tool for before-and-after image comparisons with a draggable slider; good for visual change over time, restoration, maps, and site comparison
+- [H5P](https://h5p.org/): Reusable HTML5 learning objects: hotspots, quizzes, branching scenarios, small activities.
+- [Genially](https://genially.com/): Quick interactive presentations and clickable images. Very workshop-friendly, quite template-driven.
+- [ThingLink](https://www.thinglink.com/): Multimedia hotspots on images, video, 360 scenes, and 3D models.
+- [JuxtaposeJS](https://juxtapose.knightlab.com/): Before/after image slider. One job, does it well.
 
 ### Branching Narratives
 
-- [Twine](https://twinery.org/): Open-source tool for nonlinear hypertext stories that publish directly to HTML; good for choice-based essays, branching fiction, and beginner-friendly narrative prototypes
-- [Ink / Inky](https://www.inklestudios.com/ink/): Narrative scripting language and editor for branching interactive stories; good for dialogue-heavy projects, game writing, and stories with variables or state
-- [Inklewriter](https://www.inklewriter.com/): Browser tool for writing simple choice-based stories without coding; good for quick prototypes and introductory branching narrative exercises
-- [Inform 7](https://ganelson.github.io/inform-website/): Parser-based interactive fiction system authored in prose-like language; good for room-based worlds, object puzzles, and text adventures
-- [ChoiceScript](https://www.choiceofgames.com/make-your-own-games/choicescript-intro/): Scripting language for choice-driven text games with stats, variables, and branching; good for gamebook structures and character-choice systems
-- [Yarn Spinner](https://www.yarnspinner.dev/): Narrative scripting language and tooling for game dialogue; good for conversations, branching dialogue trees, and Unity or Godot prototypes
-- [Undum](https://idmillington.github.io/undum/): JavaScript framework for browser-based interactive fiction with stateful prose; good for custom web fiction when Twine feels too constrained
-- [Quest](https://textadventures.co.uk/quest/): Tool for creating text adventures and gamebooks through a visual editor or script; verify current maintenance before teaching with it
+- [Twine](https://twinery.org/): The obvious starting point for nonlinear hypertext. Publishes to plain HTML.
+- [Ink / Inky](https://www.inklestudios.com/ink/): Branching narrative scripting, especially strong for dialogue and variables.
+- [Inklewriter](https://www.inklewriter.com/): Simple browser-based choice stories, no coding.
+- [Inform 7](https://ganelson.github.io/inform-website/): Parser fiction written in prose-like rules. Wonderful tradition, specialized learning curve.
+- [ChoiceScript](https://www.choiceofgames.com/make-your-own-games/choicescript-intro/): Gamebook-like scripting with stats, variables, and consequential choices.
+- [Yarn Spinner](https://www.yarnspinner.dev/): Dialogue trees and game conversations, often used with Unity or Godot.
+- [Undum](https://idmillington.github.io/undum/): JavaScript framework for stateful prose fiction; useful when Twine starts to feel too boxed-in.
+- [Quest](https://textadventures.co.uk/quest/): Visual/scripted text adventures and gamebooks. Check maintenance before teaching with it.
 
 ### Games & Small Worlds
 
-- [Ren'Py](https://www.renpy.org/): Open-source engine for visual novels with dialogue, sprites, backgrounds, and branching stories; good for character-led narrative games
-- [Bitsy](https://make.bitsy.org/): Browser editor for tiny pixel-art narrative worlds; good for first games, poetic spaces, short museum prompts, and constrained storytelling
-- [Decker](https://internet-janitor.itch.io/decker): HyperCard-inspired tool for interactive card stacks, scripts, and zine-like projects; good for playful prototypes and handmade-feeling digital publications
-- [Godot Engine](https://godotengine.org/): Open-source engine for 2D, 3D, and narrative game prototypes; good when interaction, movement, or systems matter more than a linear page
-- [PICO-8](https://www.lexaloffle.com/pico-8.php): Fantasy console with strict constraints for small games; good for playful sketches, retro aesthetics, and teaching through limits
-- [RPG Maker](https://www.rpgmakerweb.com/): Visual software for tile-based role-playing games; good for exploration narratives, quests, towns, and character dialogue
-- [Construct](https://www.construct.net/): No-code and low-code engine for browser-based interactive projects; good for 2D prototypes, educational games, and simple systems storytelling
-- [GDevelop](https://gdevelop.io/): Open-source engine for 2D interactive experiences; good for no-code game prototypes and classroom-friendly browser exports
-- [itch.io](https://itch.io/): Indie distribution platform for games, zines, interactive books, and experimental HTML works; good for publishing prototypes and finding models of small-form storytelling
+- [Ren'Py](https://www.renpy.org/): Visual novels: dialogue, sprites, backgrounds, branches. Script required, but approachable.
+- [Bitsy](https://make.bitsy.org/): Tiny pixel worlds. Excellent for first games, poetic rooms, museum prompts, and constrained stories.
+- [Decker](https://internet-janitor.itch.io/decker): HyperCard-ish card stacks and zines. Handmade, playful, odd in a useful way.
+- [Godot Engine](https://godotengine.org/): Open-source game engine for 2D/3D prototypes when movement, systems, or interaction matter.
+- [PICO-8](https://www.lexaloffle.com/pico-8.php): Fantasy console with strict limits. Retro aesthetics, small sketches, constraints as pedagogy.
+- [RPG Maker](https://www.rpgmakerweb.com/): Tile-based exploration, quests, towns, character dialogue. Genre-shaped but accessible.
+- [Construct](https://www.construct.net/): Browser-based no/low-code engine for 2D interactive projects and simple systems.
+- [GDevelop](https://gdevelop.io/): Open-source 2D game engine with classroom-friendly browser exports.
+- [itch.io](https://itch.io/): Publishing/distribution for games, zines, interactive books, and experimental HTML works. Also a place to find small-form references.
 
 ### 3D & Immersive
 
 **Platforms**
 
-- [Sketchfab](https://sketchfab.com/): Hosted platform for publishing, annotating, embedding, and viewing 3D models; good for object-based interpretation and quick 3D collection sharing
-- [Frame](https://framevr.io/): Browser-based 3D and VR rooms for virtual exhibits, talks, and walkable scenes; good for lightweight shared spaces without building a custom engine
-- [Artsteps](https://www.artsteps.com/): Tool for creating 3D gallery spaces and curated walkable exhibitions; good for virtual exhibitions with a familiar gallery metaphor
+- [Sketchfab](https://sketchfab.com/): Publish, annotate, and embed 3D models. A practical route into object-based interpretation.
+- [Frame](https://framevr.io/): Browser-based shared 3D rooms; lightweight virtual exhibits/talk spaces without building an engine.
+- [Artsteps](https://www.artsteps.com/): Walkable gallery metaphor. Familiar, sometimes too familiar, but easy to understand.
 
 **Production tools**
 
-- [Blender](https://www.blender.org/): Open-source 3D creation suite for modeling, animation, rendering, and video editing; good for preparing assets before publication
-- [A-Frame](https://aframe.io/): Web framework for browser-based VR and 3D scenes with HTML-like markup; good for custom web 3D projects and teaching basic immersive interaction
-- [Unity](https://unity.com/): Engine for complex 2D, 3D, AR, and VR projects; good when a project needs interaction, physics, app deployment, or game-like structure
-- [Unreal Engine](https://www.unrealengine.com/): High-end real-time 3D engine for cinematic, game, and virtual production work; good for visually ambitious immersive reconstructions
-- [Polycam](https://poly.cam/): Mobile photogrammetry and 3D scanning app for turning objects and places into models; good for quick field capture and prototype assets
-- [RealityCapture](https://www.capturingreality.com/): Photogrammetry software for generating detailed 3D models from images; good for higher-end object, site, and landscape reconstruction workflows
+- [Blender](https://www.blender.org/): The 3D workhorse: modelling, cleanup, rendering, animation.
+- [A-Frame](https://aframe.io/): Web 3D/VR with HTML-like markup. Good teaching bridge between web pages and immersive scenes.
+- [Unity](https://unity.com/): Heavy-duty engine for interaction, physics, apps, AR/VR, and game-like structures.
+- [Unreal Engine](https://www.unrealengine.com/): High-end real-time 3D and cinematic reconstruction. Powerful, resource-hungry.
+- [Polycam](https://poly.cam/): Mobile scanning/photogrammetry for quick field capture and prototype models.
+- [RealityCapture](https://www.capturingreality.com/): More professional photogrammetry pipeline for detailed sites and objects.
 
 ### Curation & Zines
 
-- [Are.na](https://www.are.na/): Slow, ad-free visual research platform for thematic collections of images, texts, and links; good for gathering references and making public research boards
-- [Electric Zine Maker](https://alienmelon.itch.io/electric-zine-maker): Playful printshop-style tool for making foldable eight-page zines; good for low-stakes publication, workshops, and experimental handout formats
-- [Notion](https://www.notion.so/): Flexible workspace for collecting sources, drafting narratives, and publishing lightweight pages; good for planning, small public guides, and collaborative project hubs
-- [WriteFreely](https://writefreely.org/): Simple, federated, text-first writing platform; good for quiet essays, logs, and minimal publication without heavy design overhead
-- [Ghost](https://ghost.org/): Publishing platform for newsletters, memberships, and long-form digital writing; good for sustained public writing projects and audience building
+- [Are.na](https://www.are.na/): Slow visual research boards. Good for collecting references without turning everything into productivity theatre.
+- [Electric Zine Maker](https://alienmelon.itch.io/electric-zine-maker): Eight-page foldable zines, printshop chaos, workshop-friendly.
+- [Notion](https://www.notion.so/): Planning, source gathering, small public guides. Convenient, proprietary.
+- [WriteFreely](https://writefreely.org/): Quiet, federated, text-first publishing.
+- [Ghost](https://ghost.org/): Long-form publishing/newsletters with audience infrastructure attached.
 
 ### Planning & Prototyping
 
-- [Miro](https://miro.com/): Collaborative whiteboard for storyboarding, audience mapping, and planning narrative flows; good for workshops and early project design
-- [Figma](https://www.figma.com/): Collaborative interface design tool for sketching interaction patterns and testing story structures; good for wireframes, clickable prototypes, and visual systems
-- [Mural](https://www.mural.co/): Online whiteboard for facilitation, design-thinking activities, and group critique; good for structured collaborative planning sessions
-- [Canva](https://www.canva.com/): Template-based design platform for presentations, explainers, and simple interactive assets; good for fast classroom prototypes and lightweight visual storytelling
-- [Aeon Timeline](https://timeline.app/): Planning tool for complex chronologies, character arcs, and narrative structures before publication; good for long projects with many dependencies
-- [Zotero](https://www.zotero.org/): Open-source research manager for collecting, annotating, and citing sources behind a story; good for keeping evidence organized before it becomes narrative
+- [Miro](https://miro.com/): Whiteboards for storyboarding, audience mapping, workshop sorting, messy early thinking.
+- [Figma](https://www.figma.com/): Wireframes, clickable prototypes, interface systems. Useful when the story is partly an interface.
+- [Mural](https://www.mural.co/): Facilitated group boards and design-thinking activities.
+- [Canva](https://www.canva.com/): Fast templates for presentations, explainers, and lightweight visual prototypes.
+- [Aeon Timeline](https://timeline.app/): Complex chronology planning before anything becomes public-facing.
+- [Zotero](https://www.zotero.org/): Source management behind the story. Boring in the best possible way.
 
 ## B. Sources
 
@@ -191,74 +191,74 @@ Scrollytelling here means long-form web stories where text, images, audio, video
 
 ### Aggregators
 
-- [Europeana](https://www.europeana.eu/): European cultural heritage portal with millions of images, texts, sounds, and objects; rights: mixed / item-level rights
-- [Digital Public Library of America](https://dp.la/): Search portal for US cultural heritage collections from libraries, archives, and museums; rights: mixed / item-level rights
-- [Wikimedia Commons](https://commons.wikimedia.org/): Large repository of freely reusable images, audio, video, and media files; rights: mixed CC, CC0, and public domain
-- [Internet Archive](https://archive.org/): Massive archive of books, audio, video, software, and web captures; rights: mixed / item-level rights
-- [Openverse](https://openverse.org/): Search engine for open images and audio across public repositories; rights: mixed CC and public domain
-- [Google Arts & Culture](https://artsandculture.google.com/): Curated cultural heritage stories and high-resolution object views; rights: custom terms, institution-specific reuse, and often limited download/reuse options
+- [Europeana](https://www.europeana.eu/): European cultural heritage at aggregator scale. Rights are item-level and uneven; always click through.
+- [Digital Public Library of America](https://dp.la/): US cultural heritage collections from libraries, archives, and museums. Mixed rights.
+- [Wikimedia Commons](https://commons.wikimedia.org/): Enormous, messy, indispensable. Licenses vary from CC0/public domain to attribution/share-alike requirements.
+- [Internet Archive](https://archive.org/): Books, audio, video, software, web captures; rights vary wildly by item.
+- [Openverse](https://openverse.org/): Search open images and audio across repositories. Mostly CC/public-domain discovery, still verify.
+- [Google Arts & Culture](https://artsandculture.google.com/): Beautiful object views and curated stories. Reuse is often limited by custom or institution-specific terms.
 
 ### Libraries & Museums
 
-- [Library of Congress Digital Collections](https://www.loc.gov/collections/): Digitized US cultural, historical, audio, map, and photograph collections; rights: mixed, many public domain or no known restrictions
-- [British Library Flickr Commons](https://www.flickr.com/photos/britishlibrary/): Public-domain image sets from digitized books and archival materials; rights: public domain / no known copyright restrictions
-- [Gallica](https://gallica.bnf.fr/): Digital library of the Bibliotheque nationale de France with books, images, maps, and periodicals; rights: mixed / item-level rights
-- [KB Digital Collections](https://www.kb.nl/en/digital-resources): Digital collections from the National Library of the Netherlands; rights: mixed / item-level rights
-- [Rijksmuseum Collection](https://www.rijksmuseum.nl/en/rijksstudio): High-resolution images and metadata from the Rijksmuseum collection; rights: many public domain images, verify item records
-- [Wellcome Collection](https://wellcomecollection.org/works): Health, medicine, science, and culture collections with strong open-access policies; rights: mixed, many CC BY and public domain items
-- [Smithsonian Open Access](https://www.si.edu/openaccess): Millions of Smithsonian images and datasets released for broad reuse; rights: many CC0 items
-- [The Met Open Access](https://www.metmuseum.org/art/collection): Metropolitan Museum of Art collection records and public-domain images; rights: public domain for open access images
-- [Cleveland Museum of Art Open Access](https://www.clevelandart.org/open-access): Open collection data and high-resolution images for public-domain artworks; rights: CC0 for open access assets
-- [Amsterdam City Archives](https://archief.amsterdam/): Archival materials, maps, images, and records related to Amsterdam; rights: mixed / item-level rights
+- [Library of Congress Digital Collections](https://www.loc.gov/collections/): Deep US collections: maps, photographs, manuscripts, recordings. Many items are public domain or no-known-restrictions, but not all.
+- [British Library Flickr Commons](https://www.flickr.com/photos/britishlibrary/): Public-domain image sets from digitized books. Odd, rich, and good for visual prompts.
+- [Gallica](https://gallica.bnf.fr/): BnF books, images, maps, periodicals. Item-level rights.
+- [KB Digital Collections](https://www.kb.nl/en/digital-resources): Dutch national library collections; check rights per object.
+- [Rijksmuseum Collection](https://www.rijksmuseum.nl/en/rijksstudio): High-resolution museum images and metadata. Many public-domain images, but verify the record.
+- [Wellcome Collection](https://wellcomecollection.org/works): Health, medicine, science, culture. Strong open-access posture; mixed item rights.
+- [Smithsonian Open Access](https://www.si.edu/openaccess): Millions of CC0 images and datasets from the Smithsonian.
+- [The Met Open Access](https://www.metmuseum.org/art/collection): Public-domain images and collection data from the Met's open-access records.
+- [Cleveland Museum of Art Open Access](https://www.clevelandart.org/open-access): CC0 collection data and images for open-access artworks.
+- [Amsterdam City Archives](https://archief.amsterdam/): Local maps, images, records, and urban history material; rights are mixed.
 
 ### Geodata
 
-- [David Rumsey Map Collection](https://www.davidrumsey.com/): Historic map collection with high-resolution scans and georeferenced materials; rights: custom terms, with many items available for noncommercial educational use but not all publication contexts
-- [OldMapsOnline](https://www.oldmapsonline.org/): Search portal for historical maps across multiple institutions; rights: mixed / item-level rights
-- [OpenStreetMap](https://www.openstreetmap.org/): Collaborative global geodata useful for basemaps and spatial context; rights: Open Database License
-- [Natural Earth](https://www.naturalearthdata.com/): Public-domain vector and raster map data for cartography; rights: public domain
-- [Pelagios Peripleo](https://peripleo.pelagios.org/): Search interface for linked open geodata about historical places; rights: mixed linked open data
-- [GeoNames](https://www.geonames.org/): Global geographical database with names, coordinates, and place metadata; rights: Creative Commons Attribution
+- [David Rumsey Map Collection](https://www.davidrumsey.com/): Historic maps, high-resolution scans, georeferencing. Custom terms; many educational uses are fine, publication still needs checking.
+- [OldMapsOnline](https://www.oldmapsonline.org/): A finding aid for historical maps across institutions. Rights live with the holding institution.
+- [OpenStreetMap](https://www.openstreetmap.org/): Collaborative global geodata. Open Database License.
+- [Natural Earth](https://www.naturalearthdata.com/): Public-domain cartographic data, especially useful for clean base maps.
+- [Pelagios Peripleo](https://peripleo.pelagios.org/): Historical places through linked open data; rights depend on the underlying records.
+- [GeoNames](https://www.geonames.org/): Place names, coordinates, and metadata. CC BY.
 
 ### Texts
 
-- [Project Gutenberg](https://www.gutenberg.org/): Public-domain ebooks for literary, historical, and educational storytelling; rights: mostly public domain in the United States
-- [Standard Ebooks](https://standardebooks.org/): Carefully edited public-domain ebooks with clean formatting and metadata; rights: CC0 for ebook editions where possible
-- [Wikisource](https://wikisource.org/): Collaborative library of transcribed source texts; rights: mostly public domain and free licenses
-- [Open Library](https://openlibrary.org/): Catalog and lending interface connected to Internet Archive digitized books; rights: mixed / item-level rights
-- [HathiTrust Digital Library](https://www.hathitrust.org/): Large digitized research library collection with public-domain and restricted works; rights: mixed / item-level rights
-- [Early English Books Online Text Creation Partnership](https://textcreationpartnership.org/tcp-texts/eebo-tcp-early-english-books-online/): Transcribed early printed texts from EEBO-TCP; rights: mixed, many texts available for academic reuse
+- [Project Gutenberg](https://www.gutenberg.org/): Public-domain ebooks, mostly from a US copyright perspective.
+- [Standard Ebooks](https://standardebooks.org/): Public-domain texts with careful editing, clean formatting, and CC0 editions where possible.
+- [Wikisource](https://wikisource.org/): Collaborative transcriptions. Mostly public domain/free licenses, but check the specific text.
+- [Open Library](https://openlibrary.org/): Catalog plus lending layer for Internet Archive books. Rights/access vary.
+- [HathiTrust Digital Library](https://www.hathitrust.org/): Huge research-library corpus with public-domain and restricted works side by side.
+- [Early English Books Online Text Creation Partnership](https://textcreationpartnership.org/tcp-texts/eebo-tcp-early-english-books-online/): Transcribed early printed books; many texts are available for academic reuse, but terms are not uniform.
 
 ### Sound Sources
 
-- [Freesound](https://freesound.org/): Community database of sound effects and field recordings; rights: mixed CC0, CC BY, and CC BY-NC
-- [Free Music Archive](https://freemusicarchive.org/): Curated music archive for creators and educators; rights: mixed Creative Commons licenses
-- [Internet Archive Netlabels](https://archive.org/details/netlabels): Collection of freely downloadable music released by netlabels; rights: mixed / item-level rights
-- [Europeana Sounds](https://www.europeana.eu/en/collections/topic/62-sound): Sound recordings and audio heritage surfaced through Europeana; rights: mixed / item-level rights
-- [BBC Sound Effects](https://sound-effects.bbcrewind.co.uk/): Archive of BBC sound effects for personal, educational, and research use; rights: custom terms with commercial restrictions
-- [Library of Congress Audio Collections](https://www.loc.gov/audio/): Historic recordings, oral histories, music, and spoken-word collections; rights: mixed / item-level rights
+- [Freesound](https://freesound.org/): Field recordings and sound effects from a community archive. CC0/CC BY/CC BY-NC mix.
+- [Free Music Archive](https://freemusicarchive.org/): Curated music with Creative Commons licenses; useful, but license details matter.
+- [Internet Archive Netlabels](https://archive.org/details/netlabels): Freely downloadable music from netlabels. Item-level rights.
+- [Europeana Sounds](https://www.europeana.eu/en/collections/topic/62-sound): Audio heritage surfaced through Europeana; mixed rights.
+- [BBC Sound Effects](https://sound-effects.bbcrewind.co.uk/): Excellent sound archive for personal, educational, and research use. Commercial reuse is restricted.
+- [Library of Congress Audio Collections](https://www.loc.gov/audio/): Recordings, oral histories, music, spoken-word collections. Check item-level rights.
 
 ### Image & Video
 
-- [Public Domain Review](https://publicdomainreview.org/): Curated essays and collections highlighting public-domain cultural materials; rights: public domain focus, verify source links
-- [NASA Image and Video Library](https://images.nasa.gov/): Space, science, mission, and astronomy media from NASA; rights: generally public domain with trademark and endorsement caveats
-- [Pexels](https://www.pexels.com/): Free stock photos and videos useful for rapid prototyping rather than source-led scholarship; rights: custom Pexels license
-- [Pixabay](https://pixabay.com/): Free stock images, illustrations, video, music, and sound effects useful for mockups and prototypes; rights: custom Pixabay license
-- [Unsplash](https://unsplash.com/): Large collection of contemporary photography useful for prototypes but sometimes stock-like in tone; rights: custom Unsplash license
-- [The Noun Project](https://thenounproject.com/): Icon library useful for diagrams and explainers; rights: mixed free attribution and paid license options
+- [Public Domain Review](https://publicdomainreview.org/): Curated public-domain material with essays. Follow source links when reuse matters.
+- [NASA Image and Video Library](https://images.nasa.gov/): Space/science media, generally public domain with trademark and endorsement caveats.
+- [Pexels](https://www.pexels.com/): Stock photos/videos for quick prototypes, not usually source-led scholarship. Custom license.
+- [Pixabay](https://pixabay.com/): Stock images, illustration, video, music, and sound effects. Custom Pixabay license.
+- [Unsplash](https://unsplash.com/): Contemporary photography; useful for mockups, sometimes too recognizably stock-like. Custom license.
+- [The Noun Project](https://thenounproject.com/): Icons for diagrams and explainers. Free attribution or paid license routes.
 
 ### Research Data
 
-- [Zenodo](https://zenodo.org/): Research repository for datasets, software, posters, and publications; rights: mixed, item-level licenses
-- [OpenAIRE Explore](https://explore.openaire.eu/): Search portal for European open research outputs and datasets; rights: mixed / item-level rights
-- [CLARIN Resource Families](https://www.clarin.eu/resource-families): Curated language resources for humanities and social-science research; rights: mixed / item-level rights
-- [DARIAH Tools and Services](https://www.dariah.eu/tools-services/): Registry for finding digital research tools, services, and resources in arts and humanities; rights: mixed / item-level rights
-- [Wikidata](https://www.wikidata.org/): Collaborative linked open data knowledge base for entities, relationships, and metadata; rights: CC0
-- [Open Knowledge Maps](https://openknowledgemaps.org/): Visual discovery tool for exploring open scholarly literature and research fields; rights: mixed source records, platform outputs under open terms
+- [Zenodo](https://zenodo.org/): Datasets, software, posters, papers, workshop materials. Item-level licenses.
+- [OpenAIRE Explore](https://explore.openaire.eu/): European open research outputs and datasets; mixed source records.
+- [CLARIN Resource Families](https://www.clarin.eu/resource-families): Curated language resources for humanities and social-science research. Rights vary.
+- [DARIAH Tools and Services](https://www.dariah.eu/tools-services/): Registry of arts/humanities tools, services, and resources.
+- [Wikidata](https://www.wikidata.org/): Collaborative linked open data. CC0, which is one reason it travels so well.
+- [Open Knowledge Maps](https://openknowledgemaps.org/): Visual discovery of scholarly literature and research fields; source records have their own rights.
 
 ## C. Examples
 
-These examples are included for critique and comparison, not as models to imitate uncritically. Some are canonical, some are experimental, and some are deliberately useful for discussing ethical limits, access barriers, platform constraints, or dated design conventions.
+These examples are included for critique and comparison, not as models to imitate uncritically. Some are canonical, some are experimental, some are dated in productive ways, and some are here because they make ethical or design tensions visible.
 
 For teaching and project design, it helps to separate **guided narratives** from **exploratory or reference interfaces**.
 
@@ -271,112 +271,112 @@ Some projects are hybrids. When in doubt, the question is simple: is the main ex
 
 **Guided narratives**
 
-- [Out of Eden Walk](https://www.outofedenwalk.com/): Slow journalism project tracing human migration through maps, photographs, essays, and field encounters; demonstrates place-based narrative with a clear authored route
-- [Histories of the National Mall](https://mallhistory.org/): Public history project connecting place, mobile interpretation, archival materials, and thematic tours; demonstrates situated urban storytelling through guided thematic paths
-- [Necessary Reunions](https://necessaryreunions.org/): Project reconnecting VOC archives and historical maps of early modern Kerala; demonstrates map-text storytelling, georeferencing, IIIF, and gazetteer work
+- [Out of Eden Walk](https://www.outofedenwalk.com/): Slow journalism, walking, maps, photographs, essays. A very authored route through place.
+- [Histories of the National Mall](https://mallhistory.org/): Mobile public history with archival materials and thematic tours. Good for talking about situated interpretation.
+- [Necessary Reunions](https://necessaryreunions.org/): VOC archives and historical maps of early modern Kerala; map-text storytelling with georeferencing, IIIF, and gazetteer work in the mix.
 
 **Exploratory / reference interfaces**
 
-- [Slave Voyages](https://www.slavevoyages.org/): Research database and interpretive site on the transatlantic and intra-American slave trades; useful as an ethical historical data interface, but primarily exploratory rather than story-led
-- [ORBIS: The Stanford Geospatial Network Model of the Roman World](https://orbis.stanford.edu/): Interactive model of travel routes, costs, and time in the Roman world; demonstrates spatial modeling as argument more than a single authored narrative
-- [Mapping the Republic of Letters](http://republicofletters.stanford.edu/): Stanford project visualizing correspondence networks among early modern intellectuals; demonstrates maps and networks as exploratory historical interpretation
-- [Locating London's Past](https://www.locatinglondon.org/): Interface for exploring early modern and eighteenth-century London datasets on a map; demonstrates layered urban history through browseable evidence
-- [Native Land Digital](https://native-land.ca/): Interactive map of Indigenous territories, languages, and treaties; demonstrates place-based knowledge with ethical framing caveats and should not be mistaken for a conventional authored story
-- [Monument Lab National Monument Audit](https://monumentlab.com/audit): Research project analyzing US monuments through maps, data, and interpretive essays; a strong hybrid case, but the core experience is analytical exploration
+- [Slave Voyages](https://www.slavevoyages.org/): Research database and interpretive site on the transatlantic and intra-American slave trades. Essential for ethical historical data/interface discussion; not simply a "story."
+- [ORBIS: The Stanford Geospatial Network Model of the Roman World](https://orbis.stanford.edu/): Routes, costs, and travel time in the Roman world. Spatial modeling as argument.
+- [Mapping the Republic of Letters](http://republicofletters.stanford.edu/): Correspondence networks among early modern intellectuals; exploratory historical interpretation through maps and networks.
+- [Locating London's Past](https://www.locatinglondon.org/): Early modern and eighteenth-century London datasets layered on a map.
+- [Native Land Digital](https://native-land.ca/): Indigenous territories, languages, and treaties. Use with its own ethical caveats; not a neutral basemap or simple authored story.
+- [Monument Lab National Monument Audit](https://monumentlab.com/audit): Maps, data, essays, and audit method around US monuments. Strong hybrid; mostly analytical exploration.
 
 ### Historical Timelines
 
 **Guided narratives**
 
-- [A History of the World in 100 Objects](https://www.bbc.co.uk/programmes/b00nrtd2): BBC and British Museum radio series organized through objects across time; demonstrates chronological public humanities storytelling
-- [Web Design History Timeline](https://www.webdesignmuseum.org/web-design-history): Visual timeline of web design eras, technologies, and interface conventions; more curated than analytical, and useful as chronology shaped into a readable sequence
+- [A History of the World in 100 Objects](https://www.bbc.co.uk/programmes/b00nrtd2): Object-based chronology at public-broadcast scale.
+- [Web Design History Timeline](https://www.webdesignmuseum.org/web-design-history): Web eras, technologies, and interface conventions arranged as a readable visual sequence.
 
 **Exploratory / reference interfaces**
 
-- [Histography](https://histography.io/): Interactive timeline of historical events linked to Wikipedia; demonstrates playful temporal navigation, but is less curatorially rigorous than authored timelines
-- [TimelineJS Examples](https://timeline.knightlab.com/#examples): Gallery of published timelines from journalism, education, and public history; useful as a pattern library rather than a single narrative example
-- [Chronas](https://chronas.org/): Interactive historical atlas organized by time and geography; demonstrates temporal-spatial exploration
+- [Histography](https://histography.io/): Playful Wikipedia-linked timeline. More navigation toy than rigorous curation, which can itself be useful to discuss.
+- [TimelineJS Examples](https://timeline.knightlab.com/#examples): A pattern library of published timelines rather than one example.
+- [Chronas](https://chronas.org/): Historical atlas organized by time and geography.
 
 ### Audio Stories
 
-- [In the Dark](https://features.apmreports.org/in-the-dark/): Investigative podcast with season-long reporting arcs and companion materials; demonstrates serialized narrative, evidentiary pacing, and deep reporting
-- [The Memory Palace](https://thememorypalace.us/): Short-form historical audio essays built around memory, archival fragments, and voice; demonstrates compact humanities storytelling through sound
-- [This American Life](https://www.thisamericanlife.org/): Weekly radio and podcast program built around themed narrative acts; demonstrates audio structure and pacing
-- [99% Invisible](https://99percentinvisible.org/): Audio storytelling series about design, cities, objects, and the built environment; demonstrates compact narrative essays that turn material culture into story
-- [Snap Judgment](https://snapjudgment.org/): Storytelling radio show and podcast built around voice-driven first-person narratives; demonstrates curation, performance, and episodic narrative framing
-- [Notes on Blindness](https://www.notesonblindness.co.uk/): Project based on John Hull's audio diaries, expanded through film, VR, and archive; demonstrates audio as source and experience
-- [The Kitchen Sisters](https://kitchensisters.org/): Archive of radio documentaries about hidden histories and everyday culture; demonstrates oral history and sound-rich storytelling
-- [Museum of London Audio Walks](https://www.museumoflondon.org.uk/discover/audio-walks): Place-based audio walks through London history; demonstrates locative sound and public history
+- [In the Dark](https://features.apmreports.org/in-the-dark/): Season-long investigation with careful evidentiary pacing and companion materials.
+- [The Memory Palace](https://thememorypalace.us/): Compact historical audio essays: memory, archive, voice.
+- [This American Life](https://www.thisamericanlife.org/): Useful for structure: themed acts, pacing, narrative handoffs.
+- [99% Invisible](https://99percentinvisible.org/): Design, cities, objects, built environment; material culture turned into short audio essays.
+- [Snap Judgment](https://snapjudgment.org/): First-person performance and curation. Voice-led.
+- [Notes on Blindness](https://www.notesonblindness.co.uk/): John Hull's audio diaries expanded into film, archive, and immersive work.
+- [The Kitchen Sisters](https://kitchensisters.org/): Radio documentaries on hidden histories and everyday culture; oral history with texture.
+- [Museum of London Audio Walks](https://www.museumoflondon.org.uk/discover/audio-walks): Locative sound for public history.
 
 ### Video & Scrollytelling
 
-- [Snow Fall](https://www.nytimes.com/projects/2012/snow-fall/): Landmark 2012 New York Times multimedia feature; demonstrates early scrollytelling conventions and how web narrative design has evolved
-- [The Boat](https://www.sbs.com.au/theboat/): Interactive adaptation of Nam Le's story using text, sound, illustration, and motion; demonstrates literary scrollytelling and sensory design
-- [Welcome to Pine Point](https://pinepoint.nfb.ca/): Interactive documentary about a vanished Canadian town; demonstrates memoir, archive, pacing, and a strongly guided multimedia narrative
-- [Bear 71](https://bear71.nfb.ca/): Interactive documentary about wildlife surveillance and human-nature boundaries; demonstrates database documentary and embodied navigation, though browser compatibility should be checked
-- [Hollow](https://hollowdocumentary.com/): Interactive documentary about a West Virginia county told through local voices; demonstrates community-centered multimedia storytelling
-- [Do Not Track](https://donottrack-doc.com/en/intro/): Personalized documentary series about privacy and the web economy; demonstrates episodic interactive storytelling with a clear narrative frame
-- [The Fallen of World War II](https://www.fallen.io/ww2/): Animated data documentary on wartime deaths and memory; demonstrates data visualization as narrative argument
-- [The Quipu Project](https://interactive.quipu-project.com/): Interactive documentary about forced sterilizations in Peru using testimony, audio, and participation; demonstrates ethical participatory storytelling
-- [The Rhythm of Food](https://rhythm-of-food.net/): Google News Lab project visualizing search interest in foods over time; demonstrates data-driven visual storytelling
+- [Snow Fall](https://www.nytimes.com/projects/2012/snow-fall/): The 2012 scrollytelling reference point. Useful partly because the form has aged.
+- [The Boat](https://www.sbs.com.au/theboat/): Literary adaptation with text, sound, illustration, motion. Sensory and guided.
+- [Welcome to Pine Point](https://pinepoint.nfb.ca/): Vanished town, memoir, archive, pacing. Still a strong guided multimedia documentary.
+- [Bear 71](https://bear71.nfb.ca/): Wildlife surveillance, database documentary, embodied navigation. Check browser compatibility.
+- [Hollow](https://hollowdocumentary.com/): Community-centered interactive documentary told through local voices.
+- [Do Not Track](https://donottrack-doc.com/en/intro/): Episodic interactive documentary about privacy and the web economy.
+- [The Fallen of World War II](https://www.fallen.io/ww2/): Animated data argument about wartime deaths and memory.
+- [The Quipu Project](https://interactive.quipu-project.com/): Testimony, audio, participation, and the ethics of documenting forced sterilizations in Peru.
+- [The Rhythm of Food](https://rhythm-of-food.net/): Search interest in foods over time; data story with a deliberately lightweight premise.
 
 ### Collection Tours
 
 **Guided narratives**
 
-- [Storiiies Examples](https://storiiies.cogapp.com/examples/): Gallery of IIIF-guided image narratives; demonstrates close-looking tours of artworks and manuscripts
-- [Exhibit Examples](https://www.exhibit.so/): British Library project examples for IIIF exhibitions; demonstrates collection-led narrative design
-- [British Library Discovering Literature](https://www.bl.uk/discovering-literature): Curated digital essays, collection items, and teaching resources; demonstrates institutional collection storytelling
-- [Europeana Exhibitions](https://www.europeana.eu/en/exhibitions): Thematic exhibitions built from European cultural heritage collections; demonstrates cross-institutional object narratives
-- [Wellcome Collection Stories](https://wellcomecollection.org/stories): Essays and features built around medical, cultural, and historical collections; demonstrates interpretive writing from collection objects
-- [The Public Domain Review Essays](https://publicdomainreview.org/essays/): Essays that turn public-domain cultural materials into interpretive stories; demonstrates source-led cultural narration
+- [Storiiies Examples](https://storiiies.cogapp.com/examples/): IIIF close-looking tours of artworks and manuscripts.
+- [Exhibit Examples](https://www.exhibit.so/): Collection-led narrative design from the British Library context.
+- [British Library Discovering Literature](https://www.bl.uk/discovering-literature): Essays, objects, teaching resources; very institutional, very useful.
+- [Europeana Exhibitions](https://www.europeana.eu/en/exhibitions): Cross-institutional object narratives built from European collections.
+- [Wellcome Collection Stories](https://wellcomecollection.org/stories): Interpretive writing from medical, cultural, and historical collections.
+- [The Public Domain Review Essays](https://publicdomainreview.org/essays/): Public-domain source material turned into essays with a strong editorial voice.
 
 **Exploratory / reference interfaces**
 
-- [Digital Benin](https://digitalbenin.org/): Platform connecting Benin Kingdom objects, oral histories, provenance data, maps, archives, and Edo-language research; a rich reparative resource, but more browseable and research-led than strictly narrative
-- [Nunalleq Digital Museum & Catalogue](https://www.nunalleq.org/): Community co-curated digital museum for a pre-contact Yup'ik archaeological site; demonstrates Indigenous heritage interpretation through objects, voices, reconstructions, and 3D scans
-- [Below the Surface](https://belowthesurface.amsterdam/nl): Digital presentation of finds from Amsterdam's Noord/Zuidlijn excavations; demonstrates urban archaeology through browseable objects, vitrines, and collection-making
+- [Digital Benin](https://digitalbenin.org/): Objects, oral histories, provenance, maps, archives, Edo-language research. Reparative and research-led; more browseable than linear.
+- [Nunalleq Digital Museum & Catalogue](https://www.nunalleq.org/): Community co-curated Yup'ik archaeological heritage through objects, voices, reconstructions, and 3D scans.
+- [Below the Surface](https://belowthesurface.amsterdam/nl): Amsterdam Noord/Zuidlijn finds presented through objects, vitrines, and urban archaeology.
 
 ### 3D & Immersive Examples
 
 **Guided narratives**
 
-- [CyArk](https://www.cyark.org/): 3D documentation and storytelling platform for cultural heritage sites; demonstrates immersive preservation narratives with strong interpretive framing
-- [Virtual Angkor](https://www.virtualangkor.com/): Digital reconstruction of Angkor for teaching and historical interpretation; demonstrates immersive historical environment design and the interpretive assumptions behind reconstruction
-- [Anne Frank House: The Secret Annex Online](https://www.annefrank.org/en/anne-frank/secret-annex/): Web-accessible exploration of the Secret Annex; demonstrates spatial interpretation without requiring VR hardware
-- [Notes on Blindness](https://www.notesonblindness.co.uk/): Cross-media project based on audio diaries about blindness; demonstrates audio, archive, film, and immersive adaptation while avoiding VR-only access
+- [CyArk](https://www.cyark.org/): 3D heritage documentation with preservation narratives and interpretive framing.
+- [Virtual Angkor](https://www.virtualangkor.com/): Historical reconstruction for teaching; useful for discussing both immersion and assumption-making.
+- [Anne Frank House: The Secret Annex Online](https://www.annefrank.org/en/anne-frank/secret-annex/): Spatial interpretation of the Secret Annex without requiring VR hardware.
+- [Notes on Blindness](https://www.notesonblindness.co.uk/): Audio diaries, archive, film, immersive adaptation. Cross-media without being VR-only.
 
 **Exploratory / reference interfaces**
 
-- [Sketchfab Cultural Heritage & History](https://sketchfab.com/3d-models/popular?categories=cultural-heritage-history): Browseable 3D heritage models with annotations and embeds; demonstrates object-based 3D interpretation
-- [The Smithsonian 3D Program](https://3d.si.edu/): Open 3D models and stories from Smithsonian collections; blends storytelling and access, but often functions as a browseable model repository
-- [Limburg3D: The Maastricht Collection](https://www.limburg3d-umfasos.nl/): Student-built project presenting 22 digitized Maastricht and Limburg objects; demonstrates object-based regional history through themes, timelines, 3D views, and activities
+- [Sketchfab Cultural Heritage & History](https://sketchfab.com/3d-models/popular?categories=cultural-heritage-history): Browseable 3D heritage models with annotations and embeds.
+- [The Smithsonian 3D Program](https://3d.si.edu/): Open 3D models and stories from Smithsonian collections; part story, part model repository.
+- [Limburg3D: The Maastricht Collection](https://www.limburg3d-umfasos.nl/): Student-built Maastricht/Limburg object histories with themes, timelines, 3D views, and activities.
 
 ### Interactive Fiction & Games
 
-- [Depression Quest](http://www.depressionquest.com/): Interactive fiction about living with depression; demonstrates constrained choice and affective design
-- [80 Days](https://www.inklestudios.com/80days/): Commercial branching narrative game inspired by Jules Verne; demonstrates route choice, worldbuilding, and replayability
-- [What Remains of Edith Finch](https://annapurnainteractive.com/en/games/what-remains-of-edith-finch): Commercial narrative exploration game about family memory and storytelling; demonstrates environmental narrative
-- [Kentucky Route Zero](https://kentuckyroutezero.com/): Commercial episodic magical realist adventure game; demonstrates atmosphere, dialogue, and literary game form
-- [The Uber Game](https://ig.ft.com/uber-game/): Interactive game about gig-economy work and decision-making; demonstrates systems storytelling and constrained agency
-- [Spent](https://playspent.org/): Interactive simulation about poverty and survival choices; demonstrates persuasive choice-based storytelling
-- [The Republia Times](https://dukope.com/play.php?g=trt): Short browser game about censorship and editorial control; demonstrates mechanics as argument
+- [Depression Quest](http://www.depressionquest.com/): Constrained choice as affective design.
+- [80 Days](https://www.inklestudios.com/80days/): Jules Verne reworked through routes, worldbuilding, and replayability.
+- [What Remains of Edith Finch](https://annapurnainteractive.com/en/games/what-remains-of-edith-finch): Environmental narrative around family memory and storytelling.
+- [Kentucky Route Zero](https://kentuckyroutezero.com/): Atmosphere, dialogue, episodic structure, literary game form.
+- [The Uber Game](https://ig.ft.com/uber-game/): Systems storytelling about gig-economy work and constrained agency.
+- [Spent](https://playspent.org/): Persuasive choice-based simulation about poverty and survival.
+- [The Republia Times](https://dukope.com/play.php?g=trt): Tiny browser game where mechanics do the political arguing.
 
 ### Mixed DH Examples
 
 **Guided narratives and strong hybrids**
 
-- [bITEM](https://bitem.at/): Object-biography platform for museum items and specimens; the [Dodo case study](https://bitem.at/entities/234465) shows how linked data can be shaped into an authored object story
-- [Tapestries: Films from the Chinese Cultural Revolution](https://tapestries.media/u/futureofthebook/03f9e39a-d4e7-43a7-95c9-acba593fe1ec): Tapestry example arranging media and text around a film corpus; demonstrates patchwork multimodal curation
-- [Tapestries: A Digital Bookshelf](https://tapestries.media/u/futureofthebook/A%20Digital%20Bookshelf): Tapestry example presenting publications as a browseable media field; closer to curated spatial narrative than to linear storytelling
-- [The Colored Conventions Project](https://coloredconventions.org/): Digital archive and exhibits about nineteenth-century Black organizing; demonstrates archive, pedagogy, and public history through both essays and research access
+- [bITEM](https://bitem.at/): Object biographies for museum items and specimens; the [Dodo case study](https://bitem.at/entities/234465) is the one to inspect.
+- [Tapestries: Films from the Chinese Cultural Revolution](https://tapestries.media/u/futureofthebook/03f9e39a-d4e7-43a7-95c9-acba593fe1ec): Media and text arranged around a film corpus; patchwork multimodal curation.
+- [Tapestries: A Digital Bookshelf](https://tapestries.media/u/futureofthebook/A%20Digital%20Bookshelf): Publications as a browseable media field. More spatial curation than linear story.
+- [The Colored Conventions Project](https://coloredconventions.org/): Archive, pedagogy, exhibits, public history around nineteenth-century Black organizing.
 
 **Exploratory / analytical interfaces**
 
-- [Visualizing Emancipation](https://dsl.richmond.edu/emancipation/): Map-based project tracing emancipation events during the US Civil War; demonstrates data, geography, and historical argument through exploration
-- [Mapping Prejudice](https://mappingprejudice.umn.edu/): Public history project mapping racial covenants and community research in Minnesota; demonstrates participatory spatial storytelling and data ethics, but primarily through evidence exploration
-- [Six Degrees of Francis Bacon](http://sixdegreesoffrancisbacon.com/): Network reconstruction of early modern social relations; demonstrates exploratory network analysis rather than a guided story path
-- [Radio Aporee Maps](https://aporee.org/maps/): Collaborative global sound map of field recordings and places; demonstrates archival sound, maps, and locative listening through open exploration
+- [Visualizing Emancipation](https://dsl.richmond.edu/emancipation/): Emancipation events during the US Civil War, traced through maps and historical data.
+- [Mapping Prejudice](https://mappingprejudice.umn.edu/): Racial covenants, community research, spatial evidence, data ethics.
+- [Six Degrees of Francis Bacon](http://sixdegreesoffrancisbacon.com/): Reconstructed early modern social networks; exploratory rather than story-led.
+- [Radio Aporee Maps](https://aporee.org/maps/): Global sound map of field recordings and places. Open-ended locative listening.
 
 ## Contributing
 
