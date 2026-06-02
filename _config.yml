@@ -2,6 +2,7 @@ title: Storytellers by Design
 description: Digital storytelling resources and workshop materials for humanities teaching and research.
 url: ""
 baseurl: "/storytellers-by-design"
+repository_url: "https://github.com/jonaschlegel/storytellers-by-design"
 
 markdown: kramdown
 permalink: pretty

@@ -74,6 +74,18 @@ main {
   padding: 0 1.25rem 3rem;
 }
 
+.content-page {
+  max-width: 48rem;
+  padding-top: 3rem;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.content-page h1 {
+  max-width: none;
+  font-size: clamp(3rem, 8vw, 5.5rem);
+}
+
 .hero {
   display: grid;
   grid-template-columns: minmax(0, 1.45fr) minmax(280px, 0.55fr);
@@ -445,6 +457,17 @@ code {
   padding: 0.12rem 0.25rem;
   border-radius: 4px;
   background: var(--accent-soft);
+}
+
+pre {
+  max-width: 100%;
+  overflow-x: hidden;
+  white-space: pre-wrap;
+}
+
+pre code {
+  overflow-wrap: anywhere;
+  white-space: inherit;
 }
 
 blockquote {

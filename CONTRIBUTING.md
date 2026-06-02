@@ -51,7 +51,7 @@ When adding examples, link to the original project or institutional page, not to
 
 ## How to Contribute
 
-Open a pull request or GitHub issue with:
+Open a pull request or GitHub issue in the [GitHub repository](https://github.com/jonaschlegel/storytellers-by-design) with:
 
 - The resource name.
 - The URL.
