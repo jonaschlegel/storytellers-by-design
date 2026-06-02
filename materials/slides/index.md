@@ -6,8 +6,6 @@ permalink: /materials/slides/
 
 # Slides
 
-Add the exported PDF slide deck to `materials/slides/`.
+Download and cite the workshop presentation slides:
 
-Suggested filename:
-
-- `storytellers-by-design-dhbenelux-2026-slides.pdf`
+- [Presentation Slides](https://doi.org/10.5281/zenodo.20487848)

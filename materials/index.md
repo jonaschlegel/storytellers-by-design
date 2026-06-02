@@ -8,27 +8,23 @@ permalink: /materials/
 
 This section is prepared for the materials for **Storytellers by Design**, the DH Benelux 2026 workshop in Maastricht by Kelly, Federica, and Jona.
 
-Add final workshop PDFs to the matching folders and then update the relevant page with the file links.
+Workshop materials are archived on Zenodo with DOI links for citation and reuse.
 
 <div class="grid">
   <article class="card">
     <h3><a href="{{ '/materials/slides/' | relative_url }}">Slides</a></h3>
-    <p>Use this folder for the exported PDF slide deck.</p>
+    <p><a href="https://doi.org/10.5281/zenodo.20487848">Presentation slides</a> for the workshop.</p>
   </article>
   <article class="card">
     <h3><a href="{{ '/materials/booklet/' | relative_url }}">Booklet</a></h3>
-    <p>Use this folder for the participant booklet.</p>
+    <p><a href="https://doi.org/10.5281/zenodo.20487958">Design Thinking Activity Booklet</a>.</p>
   </article>
   <article class="card">
     <h3><a href="{{ '/materials/case-studies/' | relative_url }}">Case Studies</a></h3>
-    <p>Use this folder for case study PDFs.</p>
-  </article>
-  <article class="card">
-    <h3><a href="{{ '/materials/activity-sheets/' | relative_url }}">Activity Sheets</a></h3>
-    <p>Use this folder for printable or fillable activity sheets.</p>
+    <p><a href="{{ '/materials/case-studies/' | relative_url }}">Open the case study briefs</a>.</p>
   </article>
   <article class="card">
     <h3><a href="{{ '/activities/design-detectives/' | relative_url }}">Critical Design Detectives</a></h3>
-    <p>Open the five group examples for the first critique activity.</p>
+    <p><a href="https://doi.org/10.5281/zenodo.20488093">Critical Design Detectives Activity</a> and five group examples.</p>
   </article>
 </div>

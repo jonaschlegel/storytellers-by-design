@@ -10,6 +10,8 @@ permalink: /activities/design-detectives/
   <p class="subtitle">Five digital storytelling examples for quick group critique. Count 1-5 through the room, open your assigned example, and look at it as a designed argument.</p>
 </section>
 
+Download and cite the activity materials: [Critical Design Detectives Activity](https://doi.org/10.5281/zenodo.20488093).
+
 ## Group Examples
 
 <div class="example-grid">

@@ -6,8 +6,6 @@ permalink: /materials/booklet/
 
 # Booklet
 
-Add the participant booklet to `materials/booklet/`.
+Download and cite the case study briefs and Design Thinking Activity Booklet:
 
-Suggested filename:
-
-- `storytellers-by-design-workshop-booklet.pdf`
+- [Case Study Briefs and Design Thinking Activity Booklet](https://doi.org/10.5281/zenodo.20487958)
